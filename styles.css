@@ -30,11 +30,7 @@ h2 {
     font-family: 'Oregano', sans-serif;
 }
 
-div {
-    margin: 0px;
-}
-
-body>div {
+article {
     width: 100%;
     padding: 3% 12%;
     box-sizing: border-box;
