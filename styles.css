@@ -44,6 +44,11 @@ body>div {
     background-color: rgb(222, 187, 144);
 }
 
+#origami {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
 .picture-with-caption {
     box-sizing: border-box;
     display: inline-block;
