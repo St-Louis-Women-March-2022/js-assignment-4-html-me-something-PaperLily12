@@ -11,6 +11,13 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: rgb(181, 146, 218);
+    margin: 0px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     ;
@@ -56,6 +63,14 @@ article {
 
 #video-games {
     background-color: rgb(145, 180, 210);
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
 }
 
 .picture-with-caption {
@@ -107,4 +122,29 @@ img {
     border-radius: 7px;
     padding: 2% 7%;
     font-size: 20px;
+}
+
+#pokeballs {
+    width: 70%;
+    margin: 0 auto;
+    padding: 6%;
+    background-color: lightgrey;
+    border-radius: 7px;
+    /*font size needs to be 0 to get rid of some annoying whitespace*/
+    font-size: 0;
+}
+
+.pokeball, .pokemon {
+    display: inline-block;
+    width: 25%;
+    aspect-ratio: 1;
+    margin: 0% 4%;
+}
+
+.pokeball {
+    transition: 0.6s;
+}
+
+.pokeball:hover {
+    transform: translateY(-6%);
 }
