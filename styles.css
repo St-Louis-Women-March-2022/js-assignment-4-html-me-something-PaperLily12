@@ -1,1 +1,150 @@
-/* Write your CSS here! */
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 8px;
+    display: block;
+}
+
+header {
+    background-color: lightcoral;
+    margin: 0px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(181, 146, 218);
+    margin: 0px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    ;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Oregano', sans-serif;
+}
+
+h2 {
+    margin: 0px;
+    padding: 2%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Oregano', sans-serif;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px 0px 20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Oregano', sans-serif;
+}
+
+article {
+    width: 100%;
+    padding: 3% 12%;
+    box-sizing: border-box;
+}
+
+#cute-animals {
+    background-color: rgb(222, 187, 144);
+}
+
+#origami {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+#video-games {
+    background-color: rgb(145, 180, 210);
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.picture-with-caption {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 27%;
+    height: auto;
+    margin: 1% 3%;
+    vertical-align: top;
+}
+
+.picture-with-caption > p {
+    padding: 0% 5%
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 7px;
+}
+
+.flip-card-container {
+    perspective: 800px;
+}
+
+.flip-card {
+    aspect-ratio: 1;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.7s;
+}
+
+.flip-card-container:hover > .flip-card {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    box-sizing: border-box;
+    background-color: lightblue;
+    transform: rotateY(180deg);
+    border-radius: 7px;
+    padding: 2% 7%;
+    font-size: 20px;
+}
+
+#pokeballs {
+    width: 70%;
+    margin: 0 auto;
+    padding: 6%;
+    background-color: lightgrey;
+    border-radius: 7px;
+    /*font size needs to be 0 to get rid of some annoying whitespace*/
+    font-size: 0;
+}
+
+.pokeball, .pokemon {
+    display: inline-block;
+    width: 25%;
+    aspect-ratio: 1;
+    margin: 0% 4%;
+}
+
+.pokeball {
+    transition: 0.6s;
+}
+
+.pokeball:hover {
+    transform: translateY(-6%);
+}
